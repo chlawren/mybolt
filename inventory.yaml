@@ -1,0 +1,16 @@
+groups:
+  - name: vagrant
+    nodes:
+      - puppet-01.home
+      - agent-01.home
+    facts:
+      operatingsystem: CentOS
+    vars:
+      environment: development
+    features: ['puppet-agent']
+    config:
+      ssh:
+          user: christopher.lawrence
+          run-as: root
+          private-key: ~/.ssh/id_rsa
+          host-key-check: false
