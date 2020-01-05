@@ -1,0 +1,10 @@
+{
+    "description": "Show System information",
+    "supports_noop": false,
+    "parameters": {
+        "host": {
+            "description": "host.[fqdn]",
+            "type": "String"
+        }
+    }
+}

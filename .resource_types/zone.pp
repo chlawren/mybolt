@@ -1,4 +1,4 @@
-# This file was automatically generated on 2019-12-31 11:43:06 +0000.
+# This file was automatically generated on 2020-01-05 10:15:52 +0000.
 # Use the 'puppet generate types' command to regenerate this file.
 
 # Manages Solaris zones.
