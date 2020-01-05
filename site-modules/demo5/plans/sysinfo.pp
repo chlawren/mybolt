@@ -1,4 +1,4 @@
-plan demo5::getinfo (
+plan demo5::sysinfo (
     TargetSpec $targets,
     String      $host,
 
